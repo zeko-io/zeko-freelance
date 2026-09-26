@@ -1,0 +1,2329 @@
+# Copyright (C) 2026 Zeko Team
+# This file is distributed under the GNU General Public License v2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: zeko-freelance 0.5.0\n"
+"Report-Msgid-Bugs-To: https://zeko.io\n"
+"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Zeko Team\n"
+"X-Domain: zeko-freelance\n"
+"X-Generator: zeko make-pot\n"
+
+#. translators: %1$s: dispute subject, %2$s: resolution note
+#: includes/class-zeko-freelance-emails.php:690
+#, php-format
+msgid "\"%1$s\" has been resolved by an administrator."
+msgstr ""
+
+#. translators: %1$s: milestone title, %2$s: amount, %3$s: currency
+#: includes/class-zeko-freelance-emails.php:313
+#, php-format
+msgid ""
+"\"%1$s\" is now funded — %2$s %3$s is being held in escrow until the work is "
+"approved."
+msgstr ""
+
+#. translators: %1$s: milestone title, %2$s: amount, %3$s: currency
+#: includes/class-zeko-freelance-emails.php:546
+#, php-format
+msgid ""
+"\"%1$s\" was approved automatically after the review window elapsed. %2$s "
+"%3$s has been released to your wallet."
+msgstr ""
+
+#. translators: %1$s: milestone title, %2$s: amount, %3$s: currency
+#: includes/class-zeko-freelance-emails.php:513
+#, php-format
+msgid ""
+"\"%1$s\" was approved automatically because no review action was taken "
+"within the SLA window. %2$s %3$s has been released to the freelancer."
+msgstr ""
+
+#. translators: %1$s: milestone title, %2$s: amount, %3$s: currency
+#: includes/class-zeko-freelance-emails.php:413
+#, php-format
+msgid "\"%1$s\" was approved. %2$s %3$s has been released to your wallet."
+msgstr ""
+
+#. translators: %1$s: project title, %2$s: client display name
+#: includes/class-zeko-freelance-emails.php:94
+#, php-format
+msgid "\"%1$s\" was submitted by %2$s and is waiting for moderation."
+msgstr ""
+
+#. translators: %1$s: project title, %2$s: expiry date
+#: includes/class-zeko-freelance-emails.php:151
+#, php-format
+msgid ""
+"\"%1$s\" will be marked as expired on %2$s. Extend the listing or close the "
+"project before then."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:480
+#, php-format
+msgid ""
+"\"%s\" is awaiting your review. If you take no action before the deadline, "
+"the milestone will be auto-approved and the escrowed payment released."
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:182
+#, php-format
+msgid ""
+"\"%s\" is no longer accepting proposals. You can reopen it anytime from your "
+"dashboard."
+msgstr ""
+
+#. translators: %1$d: milestone count, %2$d: paid count
+#: templates/single-project.php:290
+#, php-format
+msgid "%1$d (%2$d paid)"
+msgid_plural "%1$d (%2$d paid)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$d: review count, %2$s: average rating
+#: templates/profile.php:82
+#, php-format
+msgid "%1$d review · %2$s"
+msgid_plural "%1$d reviews · %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$s: freelancer name, %2$s: amount, %3$s: currency, %4$d: delivery days
+#: includes/class-zeko-freelance-emails.php:214
+#, php-format
+msgid "%1$s bid %2$s %3$s with a %4$d day delivery."
+msgstr ""
+
+#. translators: %1$s: reviewer display name, %2$d: star rating
+#: includes/class-zeko-freelance-emails.php:757
+#, php-format
+msgid "%1$s rated your work %2$d out of 5 stars."
+msgstr ""
+
+#. translators: %1$s: user display name, %2$s: verification type
+#: includes/class-zeko-freelance-emails.php:724
+#, php-format
+msgid "%1$s requested %2$s verification and is waiting for approval."
+msgstr ""
+
+#. translators: %d: delivery time in days
+#. translators: %d: delivery days
+#: includes/class-zeko-freelance-admin.php:660 templates/single-project.php:243
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: bid count
+#: templates/single-project.php:140
+#, php-format
+msgid "%d proposal"
+msgid_plural "%d proposals"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: skill count
+#: includes/class-zeko-freelance-admin.php:287
+#, php-format
+msgid "%d skills in the taxonomy."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:108
+msgid "1–3 months"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:104
+msgid "1–4 weeks"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:866
+msgid "A dispute is already open on this contract."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:658
+msgid "A dispute was opened"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:248
+#, php-format
+msgid ""
+"A freelancer placed a lower bid on \"%s\". Update your bid to stay "
+"competitive."
+msgstr ""
+
+#: templates/profile.php:103
+msgid "About"
+msgstr ""
+
+#: templates/single-project.php:96
+msgid "About the client"
+msgstr ""
+
+#: templates/single-project.php:255
+msgid "Accept bid"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:621
+msgid "Accepted"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:391
+msgid "Accepting…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:362
+#: includes/class-zeko-freelance-admin.php:525
+#: includes/class-zeko-freelance-admin.php:639
+#: includes/class-zeko-freelance-admin.php:945
+msgid "Actions"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:726
+msgid "Active"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:170
+msgid "Active contracts"
+msgstr ""
+
+#: templates/single-project.php:351
+msgid "Add a milestone"
+msgstr ""
+
+#: templates/dashboard.php:160
+msgid "Add a portfolio item"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:909
+msgid "Add a skill"
+msgstr ""
+
+#: templates/dashboard.php:196
+msgid "Add item"
+msgstr ""
+
+#: templates/single-project.php:385
+msgid "Add milestone"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:932
+msgid "Add skill"
+msgstr ""
+
+#: templates/post-project.php:142
+msgid "Add your own skills…"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:398
+msgid "Adding…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:975
+msgid ""
+"Adds back any seeded defaults that were deleted. Custom skills are left "
+"untouched."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:619
+#: includes/class-zeko-freelance-admin.php:724
+#: includes/class-zeko-freelance-admin.php:803
+msgid "All"
+msgstr ""
+
+#: templates/marketplace.php:73 templates/portfolios.php:50
+msgid "All categories"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:632
+msgid ""
+"All milestones are paid and the contract is complete. Thanks for using Zeko!"
+msgstr ""
+
+#: templates/marketplace.php:93
+msgid "All skills"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:635
+#: includes/privacy/class-zeko-freelance-privacy.php:196
+#: includes/privacy/class-zeko-freelance-privacy.php:302
+#: templates/single-project.php:359
+msgid "Amount"
+msgstr ""
+
+#: templates/profile.php:131
+msgid "Apply for verification"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:389
+#: includes/class-zeko-freelance-admin.php:545 templates/single-project.php:339
+msgid "Approve"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:394
+msgid "Approving…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:267
+msgid "Auto-approve overdue reviews"
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:505
+#, php-format
+msgid "Auto-approved: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:343
+msgid "Awarded"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:76
+#: includes/class-zeko-freelance-admin.php:614
+msgid "Bid Management"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:519
+msgid "Bid accepted. Contract created."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:464
+#: includes/class-zeko-freelance-ajax.php:493
+msgid "Bid not found."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:444
+msgid "Bid submitted."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:444
+msgid "Bid updated."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:473
+msgid "Bid withdrawn."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:77 templates/single-project.php:135
+msgid "Bids"
+msgstr ""
+
+#: templates/profile.php:161
+msgid "Bio"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1090
+msgid "Bio must be 1000 characters or fewer."
+msgstr ""
+
+#: includes/class-zeko-freelance.php:388
+msgid "Bookmark"
+msgstr ""
+
+#: templates/single-project.php:84
+msgid "Bookmark project"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:387 templates/single-project.php:84
+msgid "Bookmarked"
+msgstr ""
+
+#: templates/dashboard.php:127
+msgid "Bookmarked projects"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:358
+#: includes/privacy/class-zeko-freelance-privacy.php:150
+#: includes/privacy/class-zeko-freelance-privacy.php:247
+#: templates/single-project.php:49
+msgid "Budget"
+msgstr ""
+
+#: templates/post-project.php:100
+msgid "Budget maximum"
+msgstr ""
+
+#: templates/post-project.php:96
+msgid "Budget minimum"
+msgstr ""
+
+#. translators: %1$s: budget min, %2$s: budget max, %3$s: currency
+#: templates/single-project.php:171
+#, php-format
+msgid "Budget range: %1$s – %2$s %3$s"
+msgstr ""
+
+#: templates/profile.php:38
+msgid "Business verification"
+msgstr ""
+
+#: templates/post-project.php:152
+msgid "Cancel"
+msgstr ""
+
+#: templates/single-project.php:393
+msgid "Cancel contract"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:346
+#: includes/class-zeko-freelance-admin.php:729
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:396
+msgid "Cancelling…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:359
+#: includes/class-zeko-freelance-admin.php:922
+#: includes/class-zeko-freelance-admin.php:944
+#: includes/privacy/class-zeko-freelance-privacy.php:154
+#: includes/privacy/class-zeko-freelance-privacy.php:398
+#: templates/dashboard.php:167 templates/post-project.php:107
+#: templates/single-project.php:52
+msgid "Category"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:308
+msgid "Clear demo data"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:357
+#: includes/class-zeko-freelance-admin.php:740
+msgid "Client"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:449
+msgid "Comment"
+msgstr ""
+
+#: templates/single-project.php:447
+msgid "Comment (optional)"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:345
+#: includes/class-zeko-freelance-admin.php:728
+msgid "Completed"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:739
+#: includes/class-zeko-freelance-admin.php:816
+msgid "Contract"
+msgstr ""
+
+#. translators: %d: contract id
+#: includes/class-zeko-freelance-emails.php:627
+#, php-format
+msgid "Contract #%d completed"
+msgstr ""
+
+#. translators: %d: contract id
+#: includes/class-zeko-freelance-emails.php:602
+#, php-format
+msgid "Contract #%d has been cancelled"
+msgstr ""
+
+#: templates/single-project.php:275
+msgid "Contract & milestones"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:294
+#: includes/privacy/class-zeko-freelance-privacy.php:340
+#: includes/privacy/class-zeko-freelance-privacy.php:441
+msgid "Contract ID"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:85
+#: includes/class-zeko-freelance-admin.php:719
+msgid "Contract Management"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:606
+msgid "Contract cancelled"
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1764
+msgid "Contract cancelled and escrow refunded."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:631
+msgid "Contract completed"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:542
+#: includes/class-zeko-freelance-ajax.php:808
+#: includes/class-zeko-freelance-ajax.php:844
+#: includes/class-zeko-freelance-ajax.php:1192
+#: includes/db/class-zeko-freelance-db.php:1718
+msgid "Contract not found."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:86 templates/dashboard.php:69
+msgid "Contracts"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:737
+msgid "Could not approve the milestone."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:816
+msgid "Could not cancel the contract."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:509
+msgid "Could not create the contract. Please try again."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:659
+#: includes/db/class-zeko-freelance-db.php:1537
+msgid "Could not fund the milestone."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1736
+msgid "Could not refund a funded milestone."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1636
+msgid "Could not release the milestone payment."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1108
+msgid "Could not save your bio."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:939
+msgid "Could not upload the portfolio image. Try a different file."
+msgstr ""
+
+#: templates/login.php:27
+msgid "Create account"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:360
+#: includes/class-zeko-freelance-admin.php:745
+msgid "Created"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:162
+#: includes/privacy/class-zeko-freelance-privacy.php:212
+#: includes/privacy/class-zeko-freelance-privacy.php:263
+#: includes/privacy/class-zeko-freelance-privacy.php:360
+#: includes/privacy/class-zeko-freelance-privacy.php:410
+#: includes/privacy/class-zeko-freelance-privacy.php:453
+msgid "Created at"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:251
+msgid "Currency"
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:276 templates/dashboard.php:49
+#: templates/login.php:17 templates/marketplace.php:63
+#: templates/portfolios.php:42 templates/post-project.php:40
+#: templates/profile.php:43 templates/single-project.php:31
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:200
+msgid "Default currency"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:425
+#: includes/class-zeko-freelance-admin.php:960 templates/dashboard.php:99
+#: templates/dashboard.php:151
+msgid "Delete"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:304
+msgid "Delete all demo users and freelance demo data? Continue?"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:420
+msgid "Delete this project permanently?"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:955
+msgid "Delete this skill? Existing listings will keep it as free text."
+msgstr ""
+
+#: includes/class-zeko-freelance.php:400
+msgid "Deleting…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:636
+msgid "Delivery"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:200
+msgid "Delivery days"
+msgstr ""
+
+#: templates/single-project.php:181
+msgid "Delivery in (days)"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:376
+msgid "Delivery time must be between 1 and 365 days."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:2016
+msgid "Demo accounts cannot fund milestones."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:2045
+msgid "Demo accounts cannot receive milestone payments."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:294
+msgid "Demo data"
+msgstr ""
+
+#: templates/post-project.php:91
+msgid ""
+"Describe the work, deliverables and any deadlines. Minimum 20 characters."
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:146
+#: includes/privacy/class-zeko-freelance-privacy.php:348
+#: includes/privacy/class-zeko-freelance-privacy.php:394
+#: templates/dashboard.php:176 templates/post-project.php:77
+msgid "Description"
+msgstr ""
+
+#: templates/single-project.php:381
+msgid "Description (optional)"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:160
+msgid "Description must be at least 20 characters."
+msgstr ""
+
+#: templates/single-project.php:409
+msgid "Details"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:815
+msgid "Dispute"
+msgstr ""
+
+#. translators: %d: dispute id
+#: includes/class-zeko-freelance-emails.php:682
+#, php-format
+msgid "Dispute #%d resolved"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:94
+#: includes/class-zeko-freelance-admin.php:798
+msgid "Dispute Resolution"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:858
+msgid "Dispute details must be between 10 and 3000 characters."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:876
+msgid "Dispute opened. An administrator will review it shortly."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:686
+msgid "Dispute resolved"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:855
+msgid "Dispute subject must be between 3 and 200 characters."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:727
+msgid "Disputed"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:95
+msgid "Disputes"
+msgstr ""
+
+#. translators: %s: due date
+#: templates/single-project.php:317
+#, php-format
+msgid "Due %s"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:310
+msgid "Due at"
+msgstr ""
+
+#: templates/single-project.php:377
+msgid "Due date (optional)"
+msgstr ""
+
+#: templates/single-project.php:57
+msgid "Duration"
+msgstr ""
+
+#: templates/dashboard.php:98 templates/dashboard.php:150
+msgid "Edit"
+msgstr ""
+
+#: templates/dashboard.php:160
+msgid "Edit portfolio item"
+msgstr ""
+
+#: templates/post-project.php:46 templates/single-project.php:91
+msgid "Edit project"
+msgstr ""
+
+#: templates/profile.php:153
+msgid "Edit your profile"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:373
+msgid "Enter a bid amount greater than zero."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:168
+msgid ""
+"Enter a valid budget range (minimum must be greater than 0 and no larger "
+"than the maximum)."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:273
+msgid "Escalate stale milestones"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:742 templates/single-project.php:280
+msgid "Escrow"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:255
+msgid "Escrow amount"
+msgstr ""
+
+#: templates/post-project.php:116
+msgid "Estimated duration"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:935
+msgid "Existing skills"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:416
+msgid "Expire"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:344
+msgid "Expired"
+msgstr ""
+
+#: templates/single-project.php:188
+msgid "Explain your approach and relevant experience (at least 20 characters)."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:406
+msgid "Feature"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:374 templates/marketplace.php:113
+#: templates/single-project.php:42 templates/single-project.php:478
+msgid "Featured"
+msgstr ""
+
+#: templates/marketplace.php:56
+msgid "Featured first"
+msgstr ""
+
+#: templates/marketplace.php:103 templates/portfolios.php:56
+msgid "Filter"
+msgstr ""
+
+#: templates/portfolios.php:55
+msgid "Filter by skill…"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:116
+msgid "Flexible"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:48
+#: includes/class-zeko-freelance-ecosystem.php:87
+#: includes/class-zeko-freelance-ecosystem.php:168
+#: includes/class-zeko-freelance-ecosystem.php:267
+#: includes/class-zeko-freelance-ecosystem.php:316 zeko-freelance.php:114
+msgid "Freelance"
+msgstr ""
+
+#: zeko-freelance.php:118
+msgid "Freelance Marketplace"
+msgstr ""
+
+#: zeko-freelance.php:122
+msgid "Freelance Portfolios"
+msgstr ""
+
+#: templates/dashboard.php:48 templates/login.php:16
+#: templates/marketplace.php:62 templates/portfolios.php:41
+#: templates/post-project.php:39 templates/profile.php:42
+#: templates/single-project.php:30
+msgid "Freelance pages"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:634
+#: includes/class-zeko-freelance-admin.php:741
+msgid "Freelancer"
+msgstr ""
+
+#: zeko-freelance.php:134
+msgid "Freelancer Profile"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:67
+#: includes/class-zeko-freelance-admin.php:516
+msgid "Freelancer Verifications"
+msgstr ""
+
+#: templates/single-project.php:331
+msgid "Fund"
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1529
+msgid "Funding this milestone would exceed the contract escrow."
+msgstr ""
+
+#: includes/class-zeko-freelance.php:392
+msgid "Funding…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:302
+msgid "Generate demo data"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:296
+msgid ""
+"Generate realistic demo content (clients, freelancers, projects, bids, "
+"contracts, milestones, a dispute, portfolios, verifications and reviews) to "
+"test the marketplace, or wipe it to start fresh."
+msgstr ""
+
+#: templates/single-project.php:298
+msgid "Held in escrow"
+msgstr ""
+
+#: templates/marketplace.php:58
+msgid "Highest budget"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:244
+msgid ""
+"How long a client has to approve or reject a submitted milestone before it "
+"is auto-approved."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:257
+msgid ""
+"How long a funded milestone may sit unsubmitted before it is escalated into "
+"a dispute."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:726
+msgid "ID"
+msgstr ""
+
+#: templates/profile.php:37
+msgid "ID verification"
+msgstr ""
+
+#: templates/profile.php:142
+msgid ""
+"ID verification confirms your identity; business verification confirms your "
+"company. An administrator reviews each request."
+msgstr ""
+
+#: templates/dashboard.php:189
+msgid "Image (optional)"
+msgstr ""
+
+#: templates/login.php:23
+msgid "Join the freelance marketplace"
+msgstr ""
+
+#: templates/dashboard.php:192
+msgid "Leave empty to keep the current image."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:100
+msgid "Less than a week"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:406
+msgid "Link"
+msgstr ""
+
+#: templates/dashboard.php:185
+msgid "Link (optional)"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:178
+msgid "Listing expired"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:147
+msgid "Listing expiring soon"
+msgstr ""
+
+#: templates/post-project.php:127 templates/profile.php:165
+#: templates/single-project.php:54
+msgid "Location"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:183
+msgid "Location must be 150 characters or fewer."
+msgstr ""
+
+#: templates/login.php:26
+msgid "Log in"
+msgstr ""
+
+#: templates/single-project.php:87
+msgid "Log in to bookmark"
+msgstr ""
+
+#: templates/marketplace.php:159
+msgid "Log in to post a project"
+msgstr ""
+
+#: templates/login.php:24
+msgid "Log in to post projects, place bids and manage your contracts."
+msgstr ""
+
+#: templates/single-project.php:130
+msgid "Lowest bid first"
+msgstr ""
+
+#: templates/marketplace.php:57
+msgid "Lowest budget"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:291
+msgid "Manage skills"
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:92
+#: includes/class-zeko-freelance-ecosystem.php:285
+#: includes/class-zeko-freelance-ecosystem.php:356 templates/dashboard.php:50
+#: templates/login.php:18 templates/marketplace.php:64
+#: templates/portfolios.php:43 templates/post-project.php:41
+#: templates/profile.php:44 templates/single-project.php:32
+msgid "Marketplace"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:158
+msgid "Marketplace overview"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:206
+msgid "Max active projects per client"
+msgstr ""
+
+#: templates/marketplace.php:91
+msgid "Max budget"
+msgstr ""
+
+#: templates/profile.php:212 templates/single-project.php:98
+#: templates/single-project.php:234
+msgid "Member"
+msgstr ""
+
+#. translators: %s: join month/year
+#: templates/profile.php:70
+#, php-format
+msgid "Member since %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:233
+msgid "Milestone SLA timers"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:597
+msgid "Milestone added."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:563
+#: includes/db/class-zeko-freelance-db.php:1521
+msgid "Milestone amount must be greater than zero."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1671
+msgid "Milestone approved and contract completed."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:409
+msgid "Milestone approved and paid"
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1678
+msgid "Milestone approved and payment released."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:405
+#, php-format
+msgid "Milestone approved: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:509
+msgid "Milestone auto-approved"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:542
+msgid "Milestone auto-approved and paid"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:377
+msgid "Milestone awaiting your review"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:560
+msgid "Milestone description must be 2000 characters or fewer."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:309
+#: includes/class-zeko-freelance-emails.php:343
+msgid "Milestone funded"
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1565
+msgid "Milestone funded."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:305
+#, php-format
+msgid "Milestone funded: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:616
+#: includes/class-zeko-freelance-ajax.php:649
+#: includes/class-zeko-freelance-ajax.php:690
+#: includes/class-zeko-freelance-ajax.php:727
+#: includes/class-zeko-freelance-ajax.php:771
+#: includes/db/class-zeko-freelance-db.php:1499
+#: includes/db/class-zeko-freelance-db.php:1614
+msgid "Milestone not found."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:538
+#, php-format
+msgid "Milestone paid: %s"
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:339
+#, php-format
+msgid "Milestone ready to start: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:630
+msgid "Milestone removed."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:476
+msgid "Milestone review due"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:443
+msgid "Milestone sent back"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:789
+msgid "Milestone sent back for revisions."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:439
+#, php-format
+msgid "Milestone sent back: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:576
+msgid "Milestone submission due"
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-sla.php:143
+#, php-format
+msgid "Milestone submission overdue: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:708
+msgid "Milestone submitted for review."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:373
+#, php-format
+msgid "Milestone submitted for review: %s"
+msgstr ""
+
+#: templates/single-project.php:355
+msgid "Milestone title"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:557
+msgid "Milestone title must be between 2 and 200 characters."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:212
+msgid "Milestone-based payments"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:743 templates/single-project.php:285
+msgid "Milestones"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:581
+msgid "Milestones cannot exceed the contract escrow amount."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:182
+msgid "Milestones paid out"
+msgstr ""
+
+#: templates/marketplace.php:90
+msgid "Min budget"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:224
+msgid "Moderation"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:112
+msgid "More than 3 months"
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:345 templates/dashboard.php:65
+#: templates/dashboard.php:108
+msgid "My bids"
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:344 templates/dashboard.php:61
+#: templates/dashboard.php:87
+msgid "My projects"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:942
+msgid "Name"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:206
+#, php-format
+msgid "New bid on your project: %s"
+msgstr ""
+
+#. translators: %d: dispute id
+#: includes/class-zeko-freelance-emails.php:653
+#, php-format
+msgid "New dispute #%1$d on contract #%2$d"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:86
+#, php-format
+msgid "New project awaiting review: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:90
+msgid "New project submitted"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:753
+msgid "New review"
+msgstr ""
+
+#. translators: %s: user display name
+#: includes/class-zeko-freelance-emails.php:716
+#, php-format
+msgid "New verification request from %s"
+msgstr ""
+
+#: templates/marketplace.php:54 templates/single-project.php:131
+msgid "Newest first"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:644
+msgid "No bids in this state."
+msgstr ""
+
+#: templates/single-project.php:223
+msgid "No bids yet. Be the first to propose."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:750
+msgid "No contracts in this state."
+msgstr ""
+
+#: templates/dashboard.php:224
+msgid "No contracts yet."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:825
+msgid "No disputes in this state."
+msgstr ""
+
+#: templates/single-project.php:346
+msgid "No milestones yet."
+msgstr ""
+
+#: templates/marketplace.php:108
+msgid "No open projects match your filters."
+msgstr ""
+
+#: templates/dashboard.php:156
+msgid "No portfolio items yet."
+msgstr ""
+
+#: templates/portfolios.php:61
+msgid "No portfolio items yet. Be the first to showcase your work."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:367
+msgid "No projects in this state."
+msgstr ""
+
+#: templates/dashboard.php:105
+msgid "No projects yet."
+msgstr ""
+
+#: templates/single-project.php:106
+msgid "No reviews yet"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:937
+msgid "No skills yet."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:530
+msgid "No verification requests yet."
+msgstr ""
+
+#: templates/profile.php:124
+msgid "Not applied"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:491
+msgid "Notes"
+msgstr ""
+
+#: templates/marketplace.php:170 templates/portfolios.php:118
+msgid "Older →"
+msgstr ""
+
+#: templates/marketplace.php:55
+msgid "Oldest first"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:695
+msgid "Only the assigned freelancer can submit work."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:732
+msgid "Only the client can approve milestones."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:654
+msgid "Only the client can fund milestones."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:545
+#: includes/class-zeko-freelance-ajax.php:621
+msgid "Only the client can manage milestones on this contract."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:776
+msgid "Only the client can reject milestones."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1198
+msgid "Only the parties to this contract can leave a review."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:498
+msgid "Only the project owner can accept a bid."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:624
+msgid "Only unfunded milestones can be removed."
+msgstr ""
+
+#: templates/single-project.php:199
+msgid "Only verified freelancers can bid on this project."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:387
+msgid "Only verified freelancers can place bids."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:342
+#: includes/class-zeko-freelance-admin.php:804
+msgid "Open"
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:355
+msgid "Open Freelance dashboard"
+msgstr ""
+
+#: templates/single-project.php:397 templates/single-project.php:402
+msgid "Open a dispute"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:275
+msgid "Open a dispute for funded milestones never submitted within the window"
+msgstr ""
+
+#: templates/dashboard.php:201
+msgid "Open contracts"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:156
+#: includes/class-zeko-freelance-emails.php:186
+#: includes/class-zeko-freelance-emails.php:285
+#: includes/class-zeko-freelance-emails.php:419
+#: includes/class-zeko-freelance-emails.php:608
+#: includes/class-zeko-freelance-emails.php:633
+#: includes/class-zeko-freelance-emails.php:697
+msgid "Open dashboard"
+msgstr ""
+
+#: templates/single-project.php:413
+msgid "Open dispute"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:174
+msgid "Open disputes"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:162
+#: includes/class-zeko-freelance-ecosystem.php:343
+msgid "Open projects"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:819
+msgid "Opened"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:817
+msgid "Opened by"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:397
+msgid "Opening…"
+msgstr ""
+
+#. translators: %1$d: current page, %2$d: total pages
+#: templates/marketplace.php:168 templates/portfolios.php:116
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:2027
+#: includes/db/class-zeko-freelance-db.php:2056
+#: includes/db/class-zeko-freelance-db.php:2077
+msgid "Payments are not enabled."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:341
+#: includes/class-zeko-freelance-admin.php:620
+#: includes/class-zeko-freelance-admin.php:725
+msgid "Pending"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:166
+msgid "Pending bids"
+msgstr ""
+
+#: templates/profile.php:120
+msgid "Pending review"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:178
+msgid "Pending verifications"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:196
+msgid "Percentage withheld from each completed milestone."
+msgstr ""
+
+#: templates/single-project.php:160
+msgid "Place a bid"
+msgstr ""
+
+#: templates/single-project.php:191
+msgid "Place bid"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:389
+msgid "Placing bid…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:193
+msgid "Platform fee (%)"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:173
+#: includes/class-zeko-freelance-ajax.php:917
+msgid "Please choose a valid category."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:178
+msgid "Please choose a valid project duration."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1143
+msgid "Please choose a valid verification type."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:571
+msgid "Please enter a valid due date."
+msgstr ""
+
+#: templates/profile.php:177
+msgid "Portfolio"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:912
+msgid "Portfolio description must be 3000 characters or fewer."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:944
+msgid "Portfolio image must be a valid URL."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:981
+msgid "Portfolio item added."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1000
+msgid "Portfolio item not found."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1010
+msgid "Portfolio item removed."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:971
+msgid "Portfolio item updated."
+msgstr ""
+
+#: templates/dashboard.php:143
+msgid "Portfolio items"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:930
+msgid "Portfolio link must be a valid http(s) URL."
+msgstr ""
+
+#: templates/portfolios.php:112
+msgid "Portfolio pages"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:907
+msgid "Portfolio title must be between 2 and 200 characters."
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:96
+#: includes/class-zeko-freelance-ecosystem.php:294
+#: includes/class-zeko-freelance-ecosystem.php:358 templates/dashboard.php:52
+#: templates/login.php:20 templates/marketplace.php:66
+#: templates/portfolios.php:44 templates/post-project.php:43
+#: templates/profile.php:45 templates/single-project.php:34
+msgid "Portfolios"
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:100
+#: includes/class-zeko-freelance-ecosystem.php:303
+#: includes/class-zeko-freelance-ecosystem.php:357 templates/dashboard.php:51
+#: templates/login.php:19 templates/marketplace.php:65
+#: templates/post-project.php:42 templates/single-project.php:33
+#: zeko-freelance.php:126
+msgid "Post a Project"
+msgstr ""
+
+#: templates/dashboard.php:56 templates/marketplace.php:155
+#: templates/post-project.php:46
+msgid "Post a project"
+msgstr ""
+
+#: templates/post-project.php:148 templates/post-project.php:149
+msgid "Post project"
+msgstr ""
+
+#: templates/single-project.php:59
+msgid "Posted"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:327
+msgid "Profile not found."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1121
+msgid "Profile updated."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:356
+#: includes/class-zeko-freelance-admin.php:633
+msgid "Project"
+msgstr ""
+
+#: zeko-freelance.php:130
+msgid "Project Details"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:138
+#: includes/privacy/class-zeko-freelance-privacy.php:192
+#: includes/privacy/class-zeko-freelance-privacy.php:243
+msgid "Project ID"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:58
+#: includes/class-zeko-freelance-admin.php:336
+msgid "Project Moderation"
+msgstr ""
+
+#: templates/post-project.php:61
+msgid "Project not found or you do not own it."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:315
+#: includes/class-zeko-freelance-ajax.php:358
+#: includes/class-zeko-freelance.php:301
+msgid "Project not found."
+msgstr ""
+
+#: templates/marketplace.php:164
+msgid "Project pages"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:266
+msgid "Project published!"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:265
+msgid "Project submitted for review."
+msgstr ""
+
+#: templates/post-project.php:72
+msgid "Project title"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:267
+msgid "Project updated."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:59
+msgid "Projects"
+msgstr ""
+
+#: templates/dashboard.php:140
+msgid "Projects you bookmark will appear here."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:58
+msgid "Projects, bids, and payments in one place"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:204
+#: templates/single-project.php:186
+msgid "Proposal"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:382
+msgid "Proposal must be 2000 characters or fewer."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:379
+msgid "Proposal must be at least 20 characters."
+msgstr ""
+
+#: includes/class-zeko-freelance-ecosystem.php:346
+#: includes/privacy/class-zeko-freelance-privacy.php:445
+#: templates/dashboard.php:73 templates/single-project.php:436
+msgid "Rating"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1216
+msgid "Rating must be between 1 and 5 stars."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:845
+msgid "Refund client"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:396
+#: includes/class-zeko-freelance-admin.php:552
+#: includes/class-zeko-freelance-admin.php:670
+msgid "Reject"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:622
+msgid "Rejected"
+msgstr ""
+
+#: templates/profile.php:122
+msgid "Rejected — reapply"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:269
+msgid "Release escrow for milestones left in review past their deadline"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:853
+msgid "Release to freelancer"
+msgstr ""
+
+#. translators: %s: remaining amount
+#: templates/single-project.php:367
+#, php-format
+msgid "Remaining escrow available: %s"
+msgstr ""
+
+#: templates/single-project.php:340
+msgid "Request changes"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:226
+msgid "Require admin approval before new projects are published"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:220
+msgid "Require freelancers to be verified before bidding"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:214
+msgid "Require milestone-based payment plans on contracts"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:820
+#: includes/privacy/class-zeko-freelance-privacy.php:356
+msgid "Resolution"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:695
+msgid "Resolution:"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:661
+msgid "Resolve in admin"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:805
+msgid "Resolved"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:843
+msgid "Resolved in favor of the client. Escrow refunded."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:851
+msgid "Resolved in favor of the freelancer. Escrow released."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:974
+msgid "Restore missing default skills"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:221
+msgid "Review bids"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1221
+msgid "Review comment must be 1000 characters or fewer."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:99
+#: includes/class-zeko-freelance-emails.php:729
+msgid "Review in admin"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:385
+#: includes/class-zeko-freelance-emails.php:484
+msgid "Review milestone"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:248
+msgid "Review reminder (hours before deadline)"
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:472
+#, php-format
+msgid "Review soon: %s"
+msgstr ""
+
+#: templates/single-project.php:433
+msgid "Review this contract"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:241
+msgid "Review window (days)"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:499
+msgid "Reviewed at"
+msgstr ""
+
+#: templates/profile.php:202
+msgid "Reviews"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1201
+msgid "Reviews can only be left after the contract is completed."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:279
+msgid "Save SLA timers"
+msgstr ""
+
+#: templates/profile.php:169
+msgid "Save profile"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:386
+msgid "Saved"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:385
+msgid "Saving…"
+msgstr ""
+
+#: templates/marketplace.php:71
+msgid "Search projects"
+msgstr ""
+
+#: templates/marketplace.php:71
+msgid "Search projects…"
+msgstr ""
+
+#: templates/post-project.php:109
+msgid "Select a category…"
+msgstr ""
+
+#: templates/post-project.php:118
+msgid "Select a duration…"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:395
+msgid "Sending back…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:188
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: reviewee display name
+#: templates/single-project.php:453
+#, php-format
+msgid "Share feedback about working with %s…"
+msgstr ""
+
+#: templates/single-project.php:473
+msgid "Similar projects"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:103
+#: includes/class-zeko-freelance-admin.php:904
+msgid "Skill Taxonomy"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:916
+msgid "Skill name"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:282
+msgid "Skill taxonomy"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:104
+#: includes/privacy/class-zeko-freelance-privacy.php:402
+#: templates/post-project.php:132
+msgid "Skills"
+msgstr ""
+
+#: templates/dashboard.php:180 templates/profile.php:155
+msgid "Skills (comma separated)"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:906
+msgid ""
+"Skills power the autocomplete suggestions in project, portfolio and profile "
+"forms, and drive marketplace filtering."
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:943
+msgid "Slug"
+msgstr ""
+
+#: templates/single-project.php:210
+msgid "Sort"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:361
+#: includes/class-zeko-freelance-admin.php:523
+#: includes/class-zeko-freelance-admin.php:637
+#: includes/class-zeko-freelance-admin.php:744
+#: includes/class-zeko-freelance-admin.php:818
+#: includes/privacy/class-zeko-freelance-privacy.php:158
+#: includes/privacy/class-zeko-freelance-privacy.php:208
+#: includes/privacy/class-zeko-freelance-privacy.php:259
+#: includes/privacy/class-zeko-freelance-privacy.php:306
+#: includes/privacy/class-zeko-freelance-privacy.php:352
+#: includes/privacy/class-zeko-freelance-privacy.php:487
+msgid "Status"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:344
+#: templates/single-project.php:405
+msgid "Subject"
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:572
+#, php-format
+msgid "Submission due soon: %s"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:261
+msgid "Submission reminder (hours before deadline)"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:254
+msgid "Submission window (days)"
+msgstr ""
+
+#: templates/single-project.php:335
+msgid "Submit for review"
+msgstr ""
+
+#: templates/profile.php:145
+msgid "Submit request"
+msgstr ""
+
+#: templates/single-project.php:461
+msgid "Submit review"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:524
+#: includes/class-zeko-freelance-admin.php:638
+msgid "Submitted"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:495
+msgid "Submitted at"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:235
+msgid ""
+"Submitted milestones are auto-approved (and escrow released) when the client "
+"does not respond within the review window. Funded milestones that are never "
+"submitted within the submission window are escalated into a dispute."
+msgstr ""
+
+#: includes/class-zeko-freelance.php:393
+msgid "Submitting…"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1241
+msgid "Thank you! Your review has been published."
+msgstr ""
+
+#. translators: %1$s: project title, %2$s: amount, %3$s: currency
+#: includes/class-zeko-freelance-emails.php:279
+#, php-format
+msgid ""
+"The client accepted your bid of %2$s %3$s on \"%1$s\". A contract has been "
+"created — check your dashboard to get started."
+msgstr ""
+
+#. translators: %1$s: milestone title, %2$s: amount, %3$s: currency
+#: includes/class-zeko-freelance-emails.php:347
+#, php-format
+msgid ""
+"The client funded \"%1$s\" (%2$s %3$s). The payment is in escrow — submit "
+"your work for review when it is done."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:447
+#, php-format
+msgid ""
+"The client requested revisions on \"%s\". The payment stays in escrow — "
+"address the feedback and resubmit when ready."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:607
+msgid ""
+"The contract has been cancelled. Any funds held in escrow have been refunded "
+"to the client."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:381
+#, php-format
+msgid ""
+"The freelancer submitted \"%s\" for review. Approve it to release the "
+"escrowed payment, or send it back for revisions."
+msgstr ""
+
+#. translators: %s: milestone title
+#: includes/class-zeko-freelance-emails.php:580
+#, php-format
+msgid ""
+"The funded milestone \"%s\" has not been submitted yet. Submit it before the "
+"deadline, or the contract may be escalated to a dispute."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1206
+msgid "The other party on this contract no longer exists."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:504
+msgid "This bid can no longer be accepted."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:467
+msgid "This bid cannot be withdrawn."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1725
+msgid "This contract can no longer be cancelled."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1628
+msgid "This contract has an open dispute."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:548
+#: includes/db/class-zeko-freelance-db.php:1513
+msgid "This contract is not active."
+msgstr ""
+
+#. translators: %s: expiry date
+#: templates/single-project.php:113
+#, php-format
+msgid "This listing expires on %s."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:698
+msgid "This milestone cannot be submitted for review."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1506
+msgid "This milestone has already been funded."
+msgstr ""
+
+#: includes/db/class-zeko-freelance-db.php:1621
+msgid "This milestone is not awaiting approval."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:779
+msgid "This milestone is not awaiting review."
+msgstr ""
+
+#. translators: %1$s: milestone title
+#: includes/class-zeko-freelance-sla.php:148
+#, php-format
+msgid ""
+"This milestone was funded but never submitted within the SLA window. Escrow "
+"held for \"%1$s\" needs admin review."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:396
+msgid "This project already has a contract."
+msgstr ""
+
+#. translators: %s: current project status
+#: templates/post-project.php:53
+#, php-format
+msgid ""
+"This project is currently \"%s\" and cannot be edited until it is open again."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:361
+#: includes/class-zeko-freelance-ajax.php:501
+msgid "This project is no longer accepting bids."
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:142
+#: includes/privacy/class-zeko-freelance-privacy.php:298
+#: includes/privacy/class-zeko-freelance-privacy.php:390
+#: templates/dashboard.php:163
+msgid "Title"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:155
+msgid "Title must be between 4 and 200 characters."
+msgstr ""
+
+#: templates/single-project.php:132
+msgid "Top rated first"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:522
+#: includes/privacy/class-zeko-freelance-privacy.php:483
+msgid "Type"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:442
+#: includes/class-zeko-freelance-admin.php:570
+#: includes/class-zeko-freelance-admin.php:688
+#: includes/class-zeko-freelance-admin.php:873
+#: includes/class-zeko-freelance-admin.php:987
+#: includes/class-zeko-freelance-admin.php:1023
+msgid "Unauthorized"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:406
+msgid "Unfeature"
+msgstr ""
+
+#: templates/profile.php:158
+msgid "Up to 20 skills, e.g. WordPress, PHP, Logo Design."
+msgstr ""
+
+#: templates/single-project.php:191
+msgid "Update bid"
+msgstr ""
+
+#: templates/dashboard.php:196
+msgid "Update item"
+msgstr ""
+
+#: templates/post-project.php:148 templates/post-project.php:149
+msgid "Update project"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:399
+msgid "Updating…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:521
+msgid "User"
+msgstr ""
+
+#: templates/profile.php:110
+msgid "Verification"
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1169
+msgid ""
+"Verification request submitted. An administrator will review it shortly."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:720
+msgid "Verification requested"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:218
+msgid "Verification requirement"
+msgstr ""
+
+#: templates/profile.php:133
+msgid "Verification type"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:68
+msgid "Verifications"
+msgstr ""
+
+#: templates/profile.php:56 templates/profile.php:118
+msgid "Verified"
+msgstr ""
+
+#: templates/dashboard.php:81
+msgid "Verified freelancer"
+msgstr ""
+
+#: templates/profile.php:54 templates/single-project.php:100
+msgid "Verified member"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:319
+#: includes/class-zeko-freelance-emails.php:353
+#: includes/class-zeko-freelance-emails.php:451
+#: includes/class-zeko-freelance-emails.php:584
+msgid "View contract"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:125
+#: includes/class-zeko-freelance-emails.php:252 templates/portfolios.php:104
+#: templates/profile.php:192
+msgid "View project"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:765
+msgid "View your profile"
+msgstr ""
+
+#: templates/single-project.php:60
+msgid "Views"
+msgstr ""
+
+#: templates/single-project.php:193
+msgid "Withdraw"
+msgstr ""
+
+#: includes/class-zeko-freelance.php:390
+msgid "Withdrawing…"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:623
+msgid "Withdrawn"
+msgstr ""
+
+#. translators: %d: active project limit
+#: includes/class-zeko-freelance-ajax.php:207
+#, php-format
+msgid ""
+"You already have %d active projects. Close or delete one before posting "
+"another."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1151
+msgid "You already have a pending verification request."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1211
+msgid "You already reviewed this contract."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1148
+msgid "You are already verified."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:923
+#: includes/class-zeko-freelance-ajax.php:1084
+msgid "You can list up to 20 skills."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:364
+msgid "You cannot bid on your own project."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:811
+msgid "You cannot cancel this contract."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:1003
+msgid "You cannot delete this portfolio item."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:291
+msgid "You cannot delete this project."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:900
+msgid "You cannot edit this portfolio item."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:148
+msgid "You cannot edit this project."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:847
+msgid "You cannot open a dispute on this contract."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:210
+msgid "You have a new bid"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:244
+msgid "You have been outbid"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:240
+#, php-format
+msgid "You have been outbid on %s"
+msgstr ""
+
+#: templates/dashboard.php:122
+msgid "You have not placed any bids yet."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:308
+msgid "You must be logged in to bookmark projects."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:891
+msgid "You must be logged in to manage your portfolio."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:349
+msgid "You must be logged in to place a bid."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:139
+msgid "You must be logged in to post a project."
+msgstr ""
+
+#: includes/class-zeko-freelance-ajax.php:282
+#: includes/class-zeko-freelance-ajax.php:455
+#: includes/class-zeko-freelance-ajax.php:484
+#: includes/class-zeko-freelance-ajax.php:534
+#: includes/class-zeko-freelance-ajax.php:608
+#: includes/class-zeko-freelance-ajax.php:641
+#: includes/class-zeko-freelance-ajax.php:682
+#: includes/class-zeko-freelance-ajax.php:719
+#: includes/class-zeko-freelance-ajax.php:763
+#: includes/class-zeko-freelance-ajax.php:800
+#: includes/class-zeko-freelance-ajax.php:836
+#: includes/class-zeko-freelance-ajax.php:992
+#: includes/class-zeko-freelance-ajax.php:1027
+#: includes/class-zeko-freelance-ajax.php:1074
+#: includes/class-zeko-freelance-ajax.php:1136
+#: includes/class-zeko-freelance-ajax.php:1184
+#: includes/class-zeko-freelance-ajax.php:1330
+msgid "You must be logged in."
+msgstr ""
+
+#. translators: %d: star rating
+#: includes/class-zeko-freelance-emails.php:749
+#, php-format
+msgid "You received a %d-star review"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:64
+msgid ""
+"You received this email because of your activity on the Zeko freelance "
+"marketplace."
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:271
+#, php-format
+msgid "You won the project: %s"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:702
+msgid ""
+"Your Zeko Freelance bids, contracts, milestones, reviews, disputes and "
+"verifications were removed. Public project listings you posted were kept but "
+"detached from your account."
+msgstr ""
+
+#: templates/single-project.php:164
+msgid "Your amount"
+msgstr ""
+
+#: templates/single-project.php:160
+msgid "Your bid"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:275
+msgid "Your bid was accepted"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:124
+msgid ""
+"Your project has been published to the marketplace and freelancers can now "
+"submit proposals."
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:123
+msgid "Your project is live"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:119
+#, php-format
+msgid "Your project is live: %s"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:143
+#, php-format
+msgid "Your project listing expires soon: %s"
+msgstr ""
+
+#. translators: %s: project title
+#: includes/class-zeko-freelance-emails.php:174
+#, php-format
+msgid "Your project listing has expired: %s"
+msgstr ""
+
+#: templates/single-project.php:426
+msgid "Your review"
+msgstr ""
+
+#: includes/class-zeko-freelance-admin.php:47
+#: includes/class-zeko-freelance-admin.php:156
+#: includes/class-zeko-freelance-ecosystem.php:114
+msgid "Zeko Freelance"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:47
+#: includes/privacy/class-zeko-freelance-privacy.php:60
+msgid "Zeko Freelance data"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:188
+msgid "Zeko Freelance — Bids"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:239
+msgid "Zeko Freelance — Contracts"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:336
+msgid "Zeko Freelance — Disputes"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:479
+msgid "Zeko Freelance — Identity verifications"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:290
+msgid "Zeko Freelance — Milestones"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:386
+msgid "Zeko Freelance — Portfolio items"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:134
+msgid "Zeko Freelance — Projects"
+msgstr ""
+
+#: includes/privacy/class-zeko-freelance-privacy.php:437
+msgid "Zeko Freelance — Reviews"
+msgstr ""
+
+#: includes/class-zeko-freelance-emails.php:726
+msgid "business"
+msgstr ""
+
+#: templates/post-project.php:128
+msgid "e.g. Remote, Lagos, New York"
+msgstr ""
+
+#. translators: %s: amount
+#: templates/single-project.php:150
+#, php-format
+msgid "lowest %s"
+msgstr ""
+
+#: templates/dashboard.php:169 templates/single-project.php:438
+msgid "— Select —"
+msgstr ""
+
+#: templates/marketplace.php:166 templates/portfolios.php:114
+msgid "← Newer"
+msgstr ""
+

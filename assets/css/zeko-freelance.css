@@ -1,0 +1,850 @@
+/* Zeko Freelance — foundation styles. */
+
+.zf-dashboard,
+.zf-marketplace,
+.zf-portfolios {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.zf-tabs {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.zf-tab {
+	padding: 8px 14px;
+	border-radius: 20px;
+	background: var(--color-surface, #fff);
+	border: 1px solid var(--color-border, #e2e8f0);
+	color: var(--color-text-secondary, #64748b);
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.zf-tab:hover {
+	border-color: #a5b4fc;
+	color: #4f46e5;
+}
+
+.zf-tab-active {
+	background: #eef2ff;
+	border-color: #c7d2fe;
+	color: #4f46e5;
+}
+
+.zf-summary {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+	margin-bottom: 24px;
+}
+
+.zf-card {
+	flex: 1;
+	min-width: 120px;
+	background: var(--color-surface, #fff);
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 12px;
+	padding: 14px 18px;
+	text-align: center;
+}
+
+.zf-card-label {
+	display: block;
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-card-value {
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	color: #4f46e5;
+	margin-top: 4px;
+}
+
+.zf-verified {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	background: #ecfdf5;
+	color: #059669;
+	border: 1px solid #a7f3d0;
+	border-radius: 20px;
+	padding: 6px 14px;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.zf-columns {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 24px;
+}
+
+.zf-list {
+	list-style: none;
+	margin: 0 0 24px;
+	padding: 0;
+}
+
+.zf-list-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	padding: 10px 0;
+	border-bottom: 1px solid var(--color-border, #e2e8f0);
+}
+
+.zf-list-title {
+	flex: 1;
+	font-weight: 600;
+}
+
+.zf-list-date {
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-status {
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	padding: 2px 8px;
+	border-radius: 10px;
+	background: #f1f5f9;
+	color: #475569;
+}
+
+.zf-status-open,
+.zf-status-active,
+.zf-status-approved {
+	background: #ecfdf5;
+	color: #059669;
+}
+
+.zf-status-pending,
+.zf-status-awaiting_review {
+	background: #fef3c7;
+	color: #b45309;
+}
+
+.zf-status-closed,
+.zf-status-rejected {
+	background: #fee2e2;
+	color: #b91c1c;
+}
+
+.zf-filters {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.zf-filters input[type="search"],
+.zf-filters select {
+	padding: 8px 12px;
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 8px;
+	background: var(--color-surface, #fff);
+	font-size: 14px;
+}
+
+.zf-filters input[type="search"] {
+	flex: 1;
+	min-width: 200px;
+}
+
+.zf-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 16px;
+	margin-bottom: 20px;
+}
+
+.zf-project-card {
+	position: relative;
+	background: var(--color-surface, #fff);
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 12px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.zf-badge {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #4f46e5;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 700;
+	padding: 2px 8px;
+	border-radius: 10px;
+}
+
+.zf-project-title {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.zf-project-excerpt {
+	margin: 0;
+	font-size: 13px;
+	color: var(--color-text-secondary, #64748b);
+	flex: 1;
+}
+
+.zf-project-meta {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-price {
+	font-weight: 700;
+	color: #059669;
+}
+
+.zf-tags {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+}
+
+.zf-tag {
+	font-size: 11px;
+	background: #f1f5f9;
+	color: #475569;
+	padding: 2px 8px;
+	border-radius: 10px;
+}
+
+.zf-portfolio-thumb img {
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 8px;
+	display: block;
+}
+
+.zf-empty {
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-cta {
+	margin: 16px 0 0;
+}
+
+.zf-btn {
+	display: inline-block;
+	background: #4f46e5;
+	color: #fff;
+	border: 1px solid #4f46e5;
+	border-radius: 20px;
+	padding: 8px 18px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.zf-btn:hover {
+	background: #4338ca;
+	border-color: #4338ca;
+	color: #fff;
+}
+
+.zf-btn-secondary {
+	background: var(--color-surface, #fff);
+	color: #4f46e5;
+}
+
+.zf-btn-secondary:hover {
+	background: #eef2ff;
+	color: #4f46e5;
+}
+
+.zf-btn-sm {
+	padding: 5px 12px;
+	font-size: 12px;
+}
+
+.zf-login-card {
+	text-align: center;
+}
+
+/* Phase 1: forms, single project, notices, bookmarks. */
+
+.zf-post-project,
+.zf-single-project,
+.zf-related {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.zf-section-title {
+	font-size: 20px;
+	margin: 24px 0 12px;
+}
+
+.zf-form {
+	background: var(--color-surface, #fff);
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.zf-field {
+	margin: 0 0 16px;
+}
+
+.zf-field legend {
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.zf-field label {
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+.zf-required {
+	color: #dc2626;
+}
+
+.zf-field input[type="text"],
+.zf-field input[type="number"],
+.zf-field select,
+.zf-field textarea {
+	width: 100%;
+	padding: 9px 12px;
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 8px;
+	background: #fff;
+	font-size: 14px;
+}
+
+.zf-field textarea {
+	resize: vertical;
+}
+
+.zf-hint {
+	display: block;
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+	margin-top: 4px;
+}
+
+.zf-row {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 16px;
+}
+
+.zf-skill-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	gap: 8px;
+}
+
+.zf-skill-check {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.zf-form-actions {
+	margin: 20px 0 0;
+}
+
+.zf-notice {
+	display: none;
+	margin: 12px 0 0;
+	padding: 10px 14px;
+	border-radius: 8px;
+	font-size: 14px;
+}
+
+.zf-notice-success {
+	display: block;
+	background: #ecfdf5;
+	color: #059669;
+	border: 1px solid #a7f3d0;
+}
+
+.zf-notice-error {
+	display: block;
+	background: #fee2e2;
+	color: #b91c1c;
+	border: 1px solid #fecaca;
+}
+
+.zf-notice-warning {
+	display: block;
+	background: #fef3c7;
+	color: #b45309;
+	border: 1px solid #fde68a;
+}
+
+.zf-project-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+.zf-project-head .zf-project-title {
+	font-size: 26px;
+}
+
+.zf-meta-grid {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+	padding: 12px 0;
+	border-top: 1px solid var(--color-border, #e2e8f0);
+	border-bottom: 1px solid var(--color-border, #e2e8f0);
+	margin-bottom: 16px;
+	font-size: 13px;
+}
+
+.zf-project-description {
+	line-height: 1.7;
+	margin-bottom: 16px;
+}
+
+.zf-actions {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 16px 0;
+}
+
+.zf-bookmark-btn.zf-active {
+	background: #fef3c7;
+	border-color: #f59e0b;
+	color: #92400e;
+}
+
+.zf-client-card {
+	background: var(--color-surface, #fff);
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 12px;
+	padding: 16px 20px;
+}
+
+.zf-client-name {
+	font-weight: 700;
+	margin: 0 0 4px;
+}
+
+.zf-client-rating {
+	margin: 0;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-link {
+	background: none;
+	border: none;
+	padding: 0;
+	color: #4f46e5;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.zf-link-danger {
+	color: #b91c1c;
+}
+
+/* Phase 2: bidding. */
+
+.zf-bids-section {
+	margin-top: 32px;
+}
+
+.zf-bid-stats {
+	margin: 0 0 16px;
+	color: var(--color-text-secondary, #64748b);
+	font-size: 13px;
+}
+
+.zf-bid-item {
+	align-items: flex-start;
+}
+
+.zf-bid-main {
+	flex: 1;
+}
+
+.zf-bid-amount {
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	color: #4f46e5;
+}
+
+.zf-bid-meta {
+	display: block;
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-bid-proposal {
+	margin: 6px 0 0;
+	font-size: 13px;
+	color: #334155;
+}
+
+.zf-status-accepted {
+	background: #ecfdf5;
+	color: #059669;
+}
+
+.zf-status-withdrawn {
+	background: #f1f5f9;
+	color: #64748b;
+}
+
+.zf-status-awarded {
+	background: #eef2ff;
+	color: #4f46e5;
+}
+
+/* Phase 3: contracts, milestones & disputes. */
+
+.zf-contract-section {
+	margin-top: 32px;
+}
+
+.zf-contract-summary {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 12px 0;
+	border-top: 1px solid var(--color-border, #e2e8f0);
+	border-bottom: 1px solid var(--color-border, #e2e8f0);
+	margin-bottom: 16px;
+	font-size: 13px;
+}
+
+.zf-milestone-item {
+	align-items: flex-start;
+}
+
+.zf-milestone-main {
+	flex: 1;
+}
+
+.zf-milestone-title {
+	display: block;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.zf-milestone-amount {
+	display: inline-block;
+	font-weight: 600;
+	color: #4f46e5;
+	margin-top: 2px;
+}
+
+.zf-milestone-due {
+	display: inline-block;
+	margin-left: 8px;
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-milestone-description {
+	margin: 6px 0 0;
+	font-size: 13px;
+	color: #334155;
+}
+
+.zf-contract-actions {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 20px 0 12px;
+}
+
+.zf-status-funded {
+	background: #e0f2fe;
+	color: #0369a1;
+}
+
+.zf-status-in_review {
+	background: #fef3c7;
+	color: #b45309;
+}
+
+.zf-status-paid,
+.zf-status-completed {
+	background: #ecfdf5;
+	color: #059669;
+}
+
+.zf-status-disputed {
+	background: #fee2e2;
+	color: #b91c1c;
+}
+
+.zf-status-cancelled {
+	background: #f1f5f9;
+	color: #64748b;
+}
+
+.zf-dispute-form {
+	margin-top: 12px;
+}
+
+.zf-dispute-form[hidden] {
+	display: none;
+}
+
+/* Phase 4: public profiles, portfolio editing, reviews. */
+
+.zf-profile {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.zf-profile-head {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	padding: 20px;
+	background: var(--color-surface, #fff);
+	border: 1px solid var(--color-border, #e2e8f0);
+	border-radius: 12px;
+	margin-bottom: 16px;
+}
+
+.zf-avatar img {
+	border-radius: 50%;
+	display: block;
+}
+
+.zf-profile-name {
+	margin: 0 0 6px;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.zf-profile-meta {
+	margin: 0;
+	display: flex;
+	gap: 14px;
+	flex-wrap: wrap;
+}
+
+.zf-profile-bio {
+	color: #334155;
+}
+
+.zf-tag.zf-link-tag {
+	text-decoration: none;
+}
+
+.zf-tag.zf-link-tag:hover {
+	background: #e2e8f0;
+	color: #1e293b;
+}
+
+.zf-review-item {
+	align-items: flex-start;
+}
+
+.zf-review-rating {
+	color: #f59e0b;
+	font-weight: 700;
+}
+
+.zf-review-meta {
+	font-size: 12px;
+	color: var(--color-text-secondary, #64748b);
+}
+
+.zf-review-comment {
+	margin: 6px 0 0;
+	font-size: 14px;
+	color: #334155;
+}
+
+.zf-verify-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0 0 10px;
+}
+
+.zf-verify-label {
+	font-weight: 600;
+	font-size: 14px;
+	min-width: 160px;
+}
+
+.zf-status-pending {
+	background: #fef3c7;
+	color: #b45309;
+}
+
+.zf-status-rejected {
+	background: #fee2e2;
+	color: #b91c1c;
+}
+
+/* Pagination controls (marketplace + portfolios). */
+
+.zf-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	margin: 24px 0 8px;
+}
+
+.zf-pagination-link {
+	color: var(--color-primary, #4f46e5);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.zf-pagination-link:hover {
+	text-decoration: underline;
+}
+
+.zf-pagination-current {
+	color: var(--color-muted, #64748b);
+	font-size: 13px;
+}
+
+/* ─── Dark Mode ──────────────────────────────────────────────── */
+[data-theme="dark"] :root {
+    --color-surface: #1f2937;
+    --color-border: #374151;
+    --color-text: #e5e7eb;
+    --color-text-secondary: #9ca3af;
+    --color-primary: #818cf8;
+    --color-primary-hover: #6366f1;
+    --color-muted: #6b7280;
+    --color-success: #34d399;
+    --color-warning: #fbbf24;
+    --color-danger: #f87171;
+    --color-bg: #111827;
+}
+
+[data-theme="dark"] .zf-card,
+[data-theme="dark"] .zf-portfolio-card,
+[data-theme="dark"] .zf-proposal-card,
+[data-theme="dark"] .zf-contract-card,
+[data-theme="dark"] .zf-message-card,
+[data-theme="dark"] .zf-dashboard-summary,
+[data-theme="dark"] .zf-form,
+[data-theme="dark"] .zf-settings-panel {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border-color: var(--color-border);
+}
+
+[data-theme="dark"] .zf-tab {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+    color: var(--color-text-secondary);
+}
+
+[data-theme="dark"] .zf-tab:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+[data-theme="dark"] .zf-tab-active {
+    background: rgba(129, 140, 248, 0.15);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+[data-theme="dark"] .zf-card-value {
+    color: var(--color-primary);
+}
+
+[data-theme="dark"] .zf-verified {
+    background: rgba(52, 211, 153, 0.15);
+    color: #34d399;
+    border-color: rgba(52, 211, 153, 0.3);
+}
+
+[data-theme="dark"] textarea,
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] input[type="number"],
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] .zf-input,
+[data-theme="dark"] .zf-select {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+    color: var(--color-text);
+}
+
+[data-theme="dark"] .zf-badge {
+    background: var(--color-border);
+    color: var(--color-text-secondary);
+}
+
+[data-theme="dark"] .zf-empty,
+[data-theme="dark"] .zf-muted {
+    color: var(--color-muted);
+}
+
+[data-theme="dark"] .zf-divider {
+    border-color: var(--color-border);
+}
+
+[data-theme="dark"] .zf-status-open {
+    background: rgba(52, 211, 153, 0.15);
+    color: #34d399;
+}
+
+[data-theme="dark"] .zf-status-closed {
+    background: rgba(248, 113, 113, 0.15);
+    color: #f87171;
+}
+
+[data-theme="dark"] .zf-status-pending {
+    background: rgba(251, 191, 36, 0.15);
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .zf-rating-star {
+    color: #fbbf24;
+}
+
