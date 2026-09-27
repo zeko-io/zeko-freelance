@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zeko-freelance 0.5.0\n"
 "Report-Msgid-Bugs-To: https://zeko.io\n"
-"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"POT-Creation-Date: 2026-09-27 15:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -88,7 +88,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %1$d: review count, %2$s: average rating
-#: templates/profile.php:82
+#: templates/profile.php:83
 #, php-format
 msgid "%1$d review · %2$s"
 msgid_plural "%1$d reviews · %2$s"
@@ -144,7 +144,7 @@ msgstr ""
 msgid "1–4 weeks"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:866
+#: includes/class-zeko-freelance-ajax.php:867
 msgid "A dispute is already open on this contract."
 msgstr ""
 
@@ -160,7 +160,7 @@ msgid ""
 "competitive."
 msgstr ""
 
-#: templates/profile.php:103
+#: templates/profile.php:104
 msgid "About"
 msgstr ""
 
@@ -183,7 +183,7 @@ msgstr ""
 #: includes/class-zeko-freelance-admin.php:362
 #: includes/class-zeko-freelance-admin.php:525
 #: includes/class-zeko-freelance-admin.php:639
-#: includes/class-zeko-freelance-admin.php:945
+#: includes/class-zeko-freelance-admin.php:949
 msgid "Actions"
 msgstr ""
 
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Add a portfolio item"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:909
+#: includes/class-zeko-freelance-admin.php:913
 msgid "Add a skill"
 msgstr ""
 
@@ -215,7 +215,7 @@ msgstr ""
 msgid "Add milestone"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:932
+#: includes/class-zeko-freelance-admin.php:936
 msgid "Add skill"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Adding…"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:975
+#: includes/class-zeko-freelance-admin.php:979
 msgid ""
 "Adds back any seeded defaults that were deleted. Custom skills are left "
 "untouched."
@@ -259,7 +259,7 @@ msgstr ""
 msgid "Amount"
 msgstr ""
 
-#: templates/profile.php:131
+#: templates/profile.php:132
 msgid "Apply for verification"
 msgstr ""
 
@@ -291,24 +291,24 @@ msgstr ""
 msgid "Bid Management"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:519
+#: includes/class-zeko-freelance-ajax.php:520
 msgid "Bid accepted. Contract created."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:464
-#: includes/class-zeko-freelance-ajax.php:493
+#: includes/class-zeko-freelance-ajax.php:465
+#: includes/class-zeko-freelance-ajax.php:494
 msgid "Bid not found."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:444
+#: includes/class-zeko-freelance-ajax.php:445
 msgid "Bid submitted."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:444
+#: includes/class-zeko-freelance-ajax.php:445
 msgid "Bid updated."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:473
+#: includes/class-zeko-freelance-ajax.php:474
 msgid "Bid withdrawn."
 msgstr ""
 
@@ -316,11 +316,11 @@ msgstr ""
 msgid "Bids"
 msgstr ""
 
-#: templates/profile.php:161
+#: templates/profile.php:162
 msgid "Bio"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1090
+#: includes/class-zeko-freelance-ajax.php:1091
 msgid "Bio must be 1000 characters or fewer."
 msgstr ""
 
@@ -383,8 +383,8 @@ msgid "Cancelling…"
 msgstr ""
 
 #: includes/class-zeko-freelance-admin.php:359
-#: includes/class-zeko-freelance-admin.php:922
-#: includes/class-zeko-freelance-admin.php:944
+#: includes/class-zeko-freelance-admin.php:926
+#: includes/class-zeko-freelance-admin.php:948
 #: includes/privacy/class-zeko-freelance-privacy.php:154
 #: includes/privacy/class-zeko-freelance-privacy.php:398
 #: templates/dashboard.php:167 templates/post-project.php:107
@@ -458,10 +458,10 @@ msgstr ""
 msgid "Contract completed"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:542
-#: includes/class-zeko-freelance-ajax.php:808
-#: includes/class-zeko-freelance-ajax.php:844
-#: includes/class-zeko-freelance-ajax.php:1192
+#: includes/class-zeko-freelance-ajax.php:543
+#: includes/class-zeko-freelance-ajax.php:809
+#: includes/class-zeko-freelance-ajax.php:845
+#: includes/class-zeko-freelance-ajax.php:1193
 #: includes/db/class-zeko-freelance-db.php:1718
 msgid "Contract not found."
 msgstr ""
@@ -470,19 +470,19 @@ msgstr ""
 msgid "Contracts"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:737
+#: includes/class-zeko-freelance-ajax.php:738
 msgid "Could not approve the milestone."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:816
+#: includes/class-zeko-freelance-ajax.php:817
 msgid "Could not cancel the contract."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:509
+#: includes/class-zeko-freelance-ajax.php:510
 msgid "Could not create the contract. Please try again."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:659
+#: includes/class-zeko-freelance-ajax.php:660
 #: includes/db/class-zeko-freelance-db.php:1537
 msgid "Could not fund the milestone."
 msgstr ""
@@ -495,11 +495,11 @@ msgstr ""
 msgid "Could not release the milestone payment."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1108
+#: includes/class-zeko-freelance-ajax.php:1109
 msgid "Could not save your bio."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:939
+#: includes/class-zeko-freelance-ajax.php:940
 msgid "Could not upload the portfolio image. Try a different file."
 msgstr ""
 
@@ -537,7 +537,7 @@ msgid "Default currency"
 msgstr ""
 
 #: includes/class-zeko-freelance-admin.php:425
-#: includes/class-zeko-freelance-admin.php:960 templates/dashboard.php:99
+#: includes/class-zeko-freelance-admin.php:964 templates/dashboard.php:99
 #: templates/dashboard.php:151
 msgid "Delete"
 msgstr ""
@@ -550,7 +550,7 @@ msgstr ""
 msgid "Delete this project permanently?"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:955
+#: includes/class-zeko-freelance-admin.php:959
 msgid "Delete this skill? Existing listings will keep it as free text."
 msgstr ""
 
@@ -570,7 +570,7 @@ msgstr ""
 msgid "Delivery in (days)"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:376
+#: includes/class-zeko-freelance-ajax.php:377
 msgid "Delivery time must be between 1 and 365 days."
 msgstr ""
 
@@ -625,11 +625,11 @@ msgstr ""
 msgid "Dispute Resolution"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:858
+#: includes/class-zeko-freelance-ajax.php:859
 msgid "Dispute details must be between 10 and 3000 characters."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:876
+#: includes/class-zeko-freelance-ajax.php:877
 msgid "Dispute opened. An administrator will review it shortly."
 msgstr ""
 
@@ -637,7 +637,7 @@ msgstr ""
 msgid "Dispute resolved"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:855
+#: includes/class-zeko-freelance-ajax.php:856
 msgid "Dispute subject must be between 3 and 200 characters."
 msgstr ""
 
@@ -679,11 +679,11 @@ msgstr ""
 msgid "Edit project"
 msgstr ""
 
-#: templates/profile.php:153
+#: templates/profile.php:154
 msgid "Edit your profile"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:373
+#: includes/class-zeko-freelance-ajax.php:374
 msgid "Enter a bid amount greater than zero."
 msgstr ""
 
@@ -709,7 +709,7 @@ msgstr ""
 msgid "Estimated duration"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:935
+#: includes/class-zeko-freelance-admin.php:939
 msgid "Existing skills"
 msgstr ""
 
@@ -754,15 +754,15 @@ msgstr ""
 #: includes/class-zeko-freelance-ecosystem.php:87
 #: includes/class-zeko-freelance-ecosystem.php:168
 #: includes/class-zeko-freelance-ecosystem.php:267
-#: includes/class-zeko-freelance-ecosystem.php:316 zeko-freelance.php:114
+#: includes/class-zeko-freelance-ecosystem.php:316 zeko-freelance.php:115
 msgid "Freelance"
 msgstr ""
 
-#: zeko-freelance.php:118
+#: zeko-freelance.php:119
 msgid "Freelance Marketplace"
 msgstr ""
 
-#: zeko-freelance.php:122
+#: zeko-freelance.php:123
 msgid "Freelance Portfolios"
 msgstr ""
 
@@ -778,7 +778,7 @@ msgstr ""
 msgid "Freelancer"
 msgstr ""
 
-#: zeko-freelance.php:134
+#: zeko-freelance.php:135
 msgid "Freelancer Profile"
 msgstr ""
 
@@ -838,7 +838,7 @@ msgstr ""
 msgid "ID verification"
 msgstr ""
 
-#: templates/profile.php:142
+#: templates/profile.php:143
 msgid ""
 "ID verification confirms your identity; business verification confirms your "
 "company. An administrator reviews each request."
@@ -876,7 +876,7 @@ msgstr ""
 msgid "Listing expiring soon"
 msgstr ""
 
-#: templates/post-project.php:127 templates/profile.php:165
+#: templates/post-project.php:127 templates/profile.php:166
 #: templates/single-project.php:54
 msgid "Location"
 msgstr ""
@@ -934,13 +934,13 @@ msgstr ""
 msgid "Max budget"
 msgstr ""
 
-#: templates/profile.php:212 templates/single-project.php:98
+#: templates/profile.php:213 templates/single-project.php:98
 #: templates/single-project.php:234
 msgid "Member"
 msgstr ""
 
 #. translators: %s: join month/year
-#: templates/profile.php:70
+#: templates/profile.php:71
 #, php-format
 msgid "Member since %s"
 msgstr ""
@@ -949,11 +949,11 @@ msgstr ""
 msgid "Milestone SLA timers"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:597
+#: includes/class-zeko-freelance-ajax.php:598
 msgid "Milestone added."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:563
+#: includes/class-zeko-freelance-ajax.php:564
 #: includes/db/class-zeko-freelance-db.php:1521
 msgid "Milestone amount must be greater than zero."
 msgstr ""
@@ -988,7 +988,7 @@ msgstr ""
 msgid "Milestone awaiting your review"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:560
+#: includes/class-zeko-freelance-ajax.php:561
 msgid "Milestone description must be 2000 characters or fewer."
 msgstr ""
 
@@ -1007,11 +1007,11 @@ msgstr ""
 msgid "Milestone funded: %s"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:616
-#: includes/class-zeko-freelance-ajax.php:649
-#: includes/class-zeko-freelance-ajax.php:690
-#: includes/class-zeko-freelance-ajax.php:727
-#: includes/class-zeko-freelance-ajax.php:771
+#: includes/class-zeko-freelance-ajax.php:617
+#: includes/class-zeko-freelance-ajax.php:650
+#: includes/class-zeko-freelance-ajax.php:691
+#: includes/class-zeko-freelance-ajax.php:728
+#: includes/class-zeko-freelance-ajax.php:772
 #: includes/db/class-zeko-freelance-db.php:1499
 #: includes/db/class-zeko-freelance-db.php:1614
 msgid "Milestone not found."
@@ -1029,7 +1029,7 @@ msgstr ""
 msgid "Milestone ready to start: %s"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:630
+#: includes/class-zeko-freelance-ajax.php:631
 msgid "Milestone removed."
 msgstr ""
 
@@ -1041,7 +1041,7 @@ msgstr ""
 msgid "Milestone sent back"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:789
+#: includes/class-zeko-freelance-ajax.php:790
 msgid "Milestone sent back for revisions."
 msgstr ""
 
@@ -1061,7 +1061,7 @@ msgstr ""
 msgid "Milestone submission overdue: %s"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:708
+#: includes/class-zeko-freelance-ajax.php:709
 msgid "Milestone submitted for review."
 msgstr ""
 
@@ -1075,7 +1075,7 @@ msgstr ""
 msgid "Milestone title"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:557
+#: includes/class-zeko-freelance-ajax.php:558
 msgid "Milestone title must be between 2 and 200 characters."
 msgstr ""
 
@@ -1087,7 +1087,7 @@ msgstr ""
 msgid "Milestones"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:581
+#: includes/class-zeko-freelance-ajax.php:582
 msgid "Milestones cannot exceed the contract escrow amount."
 msgstr ""
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "My projects"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:942
+#: includes/class-zeko-freelance-admin.php:946
 msgid "Name"
 msgstr ""
 
@@ -1205,7 +1205,7 @@ msgstr ""
 msgid "No reviews yet"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:937
+#: includes/class-zeko-freelance-admin.php:941
 msgid "No skills yet."
 msgstr ""
 
@@ -1213,7 +1213,7 @@ msgstr ""
 msgid "No verification requests yet."
 msgstr ""
 
-#: templates/profile.php:124
+#: templates/profile.php:125
 msgid "Not applied"
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgstr ""
 msgid "Notes"
 msgstr ""
 
-#: templates/marketplace.php:170 templates/portfolios.php:118
+#: templates/marketplace.php:170 templates/portfolios.php:119
 msgid "Older →"
 msgstr ""
 
@@ -1229,36 +1229,36 @@ msgstr ""
 msgid "Oldest first"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:695
+#: includes/class-zeko-freelance-ajax.php:696
 msgid "Only the assigned freelancer can submit work."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:732
+#: includes/class-zeko-freelance-ajax.php:733
 msgid "Only the client can approve milestones."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:654
+#: includes/class-zeko-freelance-ajax.php:655
 msgid "Only the client can fund milestones."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:545
-#: includes/class-zeko-freelance-ajax.php:621
+#: includes/class-zeko-freelance-ajax.php:546
+#: includes/class-zeko-freelance-ajax.php:622
 msgid "Only the client can manage milestones on this contract."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:776
+#: includes/class-zeko-freelance-ajax.php:777
 msgid "Only the client can reject milestones."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1198
+#: includes/class-zeko-freelance-ajax.php:1199
 msgid "Only the parties to this contract can leave a review."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:498
+#: includes/class-zeko-freelance-ajax.php:499
 msgid "Only the project owner can accept a bid."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:624
+#: includes/class-zeko-freelance-ajax.php:625
 msgid "Only unfunded milestones can be removed."
 msgstr ""
 
@@ -1266,7 +1266,7 @@ msgstr ""
 msgid "Only verified freelancers can bid on this project."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:387
+#: includes/class-zeko-freelance-ajax.php:388
 msgid "Only verified freelancers can place bids."
 msgstr ""
 
@@ -1327,7 +1327,7 @@ msgid "Opening…"
 msgstr ""
 
 #. translators: %1$d: current page, %2$d: total pages
-#: templates/marketplace.php:168 templates/portfolios.php:116
+#: templates/marketplace.php:168 templates/portfolios.php:117
 #, php-format
 msgid "Page %1$d of %2$d"
 msgstr ""
@@ -1348,7 +1348,7 @@ msgstr ""
 msgid "Pending bids"
 msgstr ""
 
-#: templates/profile.php:120
+#: templates/profile.php:121
 msgid "Pending review"
 msgstr ""
 
@@ -1377,7 +1377,7 @@ msgid "Platform fee (%)"
 msgstr ""
 
 #: includes/class-zeko-freelance-ajax.php:173
-#: includes/class-zeko-freelance-ajax.php:917
+#: includes/class-zeko-freelance-ajax.php:918
 msgid "Please choose a valid category."
 msgstr ""
 
@@ -1385,39 +1385,39 @@ msgstr ""
 msgid "Please choose a valid project duration."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1143
+#: includes/class-zeko-freelance-ajax.php:1144
 msgid "Please choose a valid verification type."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:571
+#: includes/class-zeko-freelance-ajax.php:572
 msgid "Please enter a valid due date."
 msgstr ""
 
-#: templates/profile.php:177
+#: templates/profile.php:178
 msgid "Portfolio"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:912
+#: includes/class-zeko-freelance-ajax.php:913
 msgid "Portfolio description must be 3000 characters or fewer."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:944
+#: includes/class-zeko-freelance-ajax.php:945
 msgid "Portfolio image must be a valid URL."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:981
+#: includes/class-zeko-freelance-ajax.php:982
 msgid "Portfolio item added."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1000
+#: includes/class-zeko-freelance-ajax.php:1001
 msgid "Portfolio item not found."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1010
+#: includes/class-zeko-freelance-ajax.php:1011
 msgid "Portfolio item removed."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:971
+#: includes/class-zeko-freelance-ajax.php:972
 msgid "Portfolio item updated."
 msgstr ""
 
@@ -1425,15 +1425,15 @@ msgstr ""
 msgid "Portfolio items"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:930
+#: includes/class-zeko-freelance-ajax.php:931
 msgid "Portfolio link must be a valid http(s) URL."
 msgstr ""
 
-#: templates/portfolios.php:112
+#: templates/portfolios.php:113
 msgid "Portfolio pages"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:907
+#: includes/class-zeko-freelance-ajax.php:908
 msgid "Portfolio title must be between 2 and 200 characters."
 msgstr ""
 
@@ -1451,7 +1451,7 @@ msgstr ""
 #: includes/class-zeko-freelance-ecosystem.php:357 templates/dashboard.php:51
 #: templates/login.php:19 templates/marketplace.php:65
 #: templates/post-project.php:42 templates/single-project.php:33
-#: zeko-freelance.php:126
+#: zeko-freelance.php:127
 msgid "Post a Project"
 msgstr ""
 
@@ -1472,7 +1472,7 @@ msgstr ""
 msgid "Profile not found."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1121
+#: includes/class-zeko-freelance-ajax.php:1122
 msgid "Profile updated."
 msgstr ""
 
@@ -1481,7 +1481,7 @@ msgstr ""
 msgid "Project"
 msgstr ""
 
-#: zeko-freelance.php:130
+#: zeko-freelance.php:131
 msgid "Project Details"
 msgstr ""
 
@@ -1500,8 +1500,8 @@ msgstr ""
 msgid "Project not found or you do not own it."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:315
-#: includes/class-zeko-freelance-ajax.php:358
+#: includes/class-zeko-freelance-ajax.php:316
+#: includes/class-zeko-freelance-ajax.php:359
 #: includes/class-zeko-freelance.php:301
 msgid "Project not found."
 msgstr ""
@@ -1510,11 +1510,11 @@ msgstr ""
 msgid "Project pages"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:266
+#: includes/class-zeko-freelance-ajax.php:267
 msgid "Project published!"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:265
+#: includes/class-zeko-freelance-ajax.php:266
 msgid "Project submitted for review."
 msgstr ""
 
@@ -1522,7 +1522,7 @@ msgstr ""
 msgid "Project title"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:267
+#: includes/class-zeko-freelance-ajax.php:268
 msgid "Project updated."
 msgstr ""
 
@@ -1543,11 +1543,11 @@ msgstr ""
 msgid "Proposal"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:382
+#: includes/class-zeko-freelance-ajax.php:383
 msgid "Proposal must be 2000 characters or fewer."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:379
+#: includes/class-zeko-freelance-ajax.php:380
 msgid "Proposal must be at least 20 characters."
 msgstr ""
 
@@ -1557,7 +1557,7 @@ msgstr ""
 msgid "Rating"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1216
+#: includes/class-zeko-freelance-ajax.php:1217
 msgid "Rating must be between 1 and 5 stars."
 msgstr ""
 
@@ -1575,7 +1575,7 @@ msgstr ""
 msgid "Rejected"
 msgstr ""
 
-#: templates/profile.php:122
+#: templates/profile.php:123
 msgid "Rejected — reapply"
 msgstr ""
 
@@ -1634,7 +1634,7 @@ msgstr ""
 msgid "Resolved in favor of the freelancer. Escrow released."
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:974
+#: includes/class-zeko-freelance-admin.php:978
 msgid "Restore missing default skills"
 msgstr ""
 
@@ -1642,7 +1642,7 @@ msgstr ""
 msgid "Review bids"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1221
+#: includes/class-zeko-freelance-ajax.php:1222
 msgid "Review comment must be 1000 characters or fewer."
 msgstr ""
 
@@ -1678,11 +1678,11 @@ msgstr ""
 msgid "Reviewed at"
 msgstr ""
 
-#: templates/profile.php:202
+#: templates/profile.php:203
 msgid "Reviews"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1201
+#: includes/class-zeko-freelance-ajax.php:1202
 msgid "Reviews can only be left after the contract is completed."
 msgstr ""
 
@@ -1690,7 +1690,7 @@ msgstr ""
 msgid "Save SLA timers"
 msgstr ""
 
-#: templates/profile.php:169
+#: templates/profile.php:170
 msgid "Save profile"
 msgstr ""
 
@@ -1737,11 +1737,11 @@ msgid "Similar projects"
 msgstr ""
 
 #: includes/class-zeko-freelance-admin.php:103
-#: includes/class-zeko-freelance-admin.php:904
+#: includes/class-zeko-freelance-admin.php:908
 msgid "Skill Taxonomy"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:916
+#: includes/class-zeko-freelance-admin.php:920
 msgid "Skill name"
 msgstr ""
 
@@ -1755,17 +1755,17 @@ msgstr ""
 msgid "Skills"
 msgstr ""
 
-#: templates/dashboard.php:180 templates/profile.php:155
+#: templates/dashboard.php:180 templates/profile.php:156
 msgid "Skills (comma separated)"
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:906
+#: includes/class-zeko-freelance-admin.php:910
 msgid ""
 "Skills power the autocomplete suggestions in project, portfolio and profile "
 "forms, and drive marketplace filtering."
 msgstr ""
 
-#: includes/class-zeko-freelance-admin.php:943
+#: includes/class-zeko-freelance-admin.php:947
 msgid "Slug"
 msgstr ""
 
@@ -1810,7 +1810,7 @@ msgstr ""
 msgid "Submit for review"
 msgstr ""
 
-#: templates/profile.php:145
+#: templates/profile.php:146
 msgid "Submit request"
 msgstr ""
 
@@ -1838,7 +1838,7 @@ msgstr ""
 msgid "Submitting…"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1241
+#: includes/class-zeko-freelance-ajax.php:1242
 msgid "Thank you! Your review has been published."
 msgstr ""
 
@@ -1888,15 +1888,15 @@ msgid ""
 "deadline, or the contract may be escalated to a dispute."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1206
+#: includes/class-zeko-freelance-ajax.php:1207
 msgid "The other party on this contract no longer exists."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:504
+#: includes/class-zeko-freelance-ajax.php:505
 msgid "This bid can no longer be accepted."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:467
+#: includes/class-zeko-freelance-ajax.php:468
 msgid "This bid cannot be withdrawn."
 msgstr ""
 
@@ -1908,7 +1908,7 @@ msgstr ""
 msgid "This contract has an open dispute."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:548
+#: includes/class-zeko-freelance-ajax.php:549
 #: includes/db/class-zeko-freelance-db.php:1513
 msgid "This contract is not active."
 msgstr ""
@@ -1919,7 +1919,7 @@ msgstr ""
 msgid "This listing expires on %s."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:698
+#: includes/class-zeko-freelance-ajax.php:699
 msgid "This milestone cannot be submitted for review."
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgstr ""
 msgid "This milestone is not awaiting approval."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:779
+#: includes/class-zeko-freelance-ajax.php:780
 msgid "This milestone is not awaiting review."
 msgstr ""
 
@@ -1943,7 +1943,7 @@ msgid ""
 "held for \"%1$s\" needs admin review."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:396
+#: includes/class-zeko-freelance-ajax.php:397
 msgid "This project already has a contract."
 msgstr ""
 
@@ -1954,8 +1954,8 @@ msgid ""
 "This project is currently \"%s\" and cannot be edited until it is open again."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:361
-#: includes/class-zeko-freelance-ajax.php:501
+#: includes/class-zeko-freelance-ajax.php:362
+#: includes/class-zeko-freelance-ajax.php:502
 msgid "This project is no longer accepting bids."
 msgstr ""
 
@@ -1982,9 +1982,9 @@ msgstr ""
 #: includes/class-zeko-freelance-admin.php:442
 #: includes/class-zeko-freelance-admin.php:570
 #: includes/class-zeko-freelance-admin.php:688
-#: includes/class-zeko-freelance-admin.php:873
-#: includes/class-zeko-freelance-admin.php:987
-#: includes/class-zeko-freelance-admin.php:1023
+#: includes/class-zeko-freelance-admin.php:877
+#: includes/class-zeko-freelance-admin.php:991
+#: includes/class-zeko-freelance-admin.php:1027
 msgid "Unauthorized"
 msgstr ""
 
@@ -1992,7 +1992,7 @@ msgstr ""
 msgid "Unfeature"
 msgstr ""
 
-#: templates/profile.php:158
+#: templates/profile.php:159
 msgid "Up to 20 skills, e.g. WordPress, PHP, Logo Design."
 msgstr ""
 
@@ -2016,11 +2016,11 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: templates/profile.php:110
+#: templates/profile.php:111
 msgid "Verification"
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1169
+#: includes/class-zeko-freelance-ajax.php:1170
 msgid ""
 "Verification request submitted. An administrator will review it shortly."
 msgstr ""
@@ -2033,7 +2033,7 @@ msgstr ""
 msgid "Verification requirement"
 msgstr ""
 
-#: templates/profile.php:133
+#: templates/profile.php:134
 msgid "Verification type"
 msgstr ""
 
@@ -2041,7 +2041,7 @@ msgstr ""
 msgid "Verifications"
 msgstr ""
 
-#: templates/profile.php:56 templates/profile.php:118
+#: templates/profile.php:56 templates/profile.php:119
 msgid "Verified"
 msgstr ""
 
@@ -2061,8 +2061,8 @@ msgid "View contract"
 msgstr ""
 
 #: includes/class-zeko-freelance-emails.php:125
-#: includes/class-zeko-freelance-emails.php:252 templates/portfolios.php:104
-#: templates/profile.php:192
+#: includes/class-zeko-freelance-emails.php:252 templates/portfolios.php:105
+#: templates/profile.php:193
 msgid "View project"
 msgstr ""
 
@@ -2087,47 +2087,47 @@ msgid "Withdrawn"
 msgstr ""
 
 #. translators: %d: active project limit
-#: includes/class-zeko-freelance-ajax.php:207
+#: includes/class-zeko-freelance-ajax.php:208
 #, php-format
 msgid ""
 "You already have %d active projects. Close or delete one before posting "
 "another."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1151
+#: includes/class-zeko-freelance-ajax.php:1152
 msgid "You already have a pending verification request."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1211
+#: includes/class-zeko-freelance-ajax.php:1212
 msgid "You already reviewed this contract."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1148
+#: includes/class-zeko-freelance-ajax.php:1149
 msgid "You are already verified."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:923
-#: includes/class-zeko-freelance-ajax.php:1084
+#: includes/class-zeko-freelance-ajax.php:924
+#: includes/class-zeko-freelance-ajax.php:1085
 msgid "You can list up to 20 skills."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:364
+#: includes/class-zeko-freelance-ajax.php:365
 msgid "You cannot bid on your own project."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:811
+#: includes/class-zeko-freelance-ajax.php:812
 msgid "You cannot cancel this contract."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:1003
+#: includes/class-zeko-freelance-ajax.php:1004
 msgid "You cannot delete this portfolio item."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:291
+#: includes/class-zeko-freelance-ajax.php:292
 msgid "You cannot delete this project."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:900
+#: includes/class-zeko-freelance-ajax.php:901
 msgid "You cannot edit this portfolio item."
 msgstr ""
 
@@ -2135,7 +2135,7 @@ msgstr ""
 msgid "You cannot edit this project."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:847
+#: includes/class-zeko-freelance-ajax.php:848
 msgid "You cannot open a dispute on this contract."
 msgstr ""
 
@@ -2157,15 +2157,15 @@ msgstr ""
 msgid "You have not placed any bids yet."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:308
+#: includes/class-zeko-freelance-ajax.php:309
 msgid "You must be logged in to bookmark projects."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:891
+#: includes/class-zeko-freelance-ajax.php:892
 msgid "You must be logged in to manage your portfolio."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:349
+#: includes/class-zeko-freelance-ajax.php:350
 msgid "You must be logged in to place a bid."
 msgstr ""
 
@@ -2173,23 +2173,23 @@ msgstr ""
 msgid "You must be logged in to post a project."
 msgstr ""
 
-#: includes/class-zeko-freelance-ajax.php:282
-#: includes/class-zeko-freelance-ajax.php:455
-#: includes/class-zeko-freelance-ajax.php:484
-#: includes/class-zeko-freelance-ajax.php:534
-#: includes/class-zeko-freelance-ajax.php:608
-#: includes/class-zeko-freelance-ajax.php:641
-#: includes/class-zeko-freelance-ajax.php:682
-#: includes/class-zeko-freelance-ajax.php:719
-#: includes/class-zeko-freelance-ajax.php:763
-#: includes/class-zeko-freelance-ajax.php:800
-#: includes/class-zeko-freelance-ajax.php:836
-#: includes/class-zeko-freelance-ajax.php:992
-#: includes/class-zeko-freelance-ajax.php:1027
-#: includes/class-zeko-freelance-ajax.php:1074
-#: includes/class-zeko-freelance-ajax.php:1136
-#: includes/class-zeko-freelance-ajax.php:1184
-#: includes/class-zeko-freelance-ajax.php:1330
+#: includes/class-zeko-freelance-ajax.php:283
+#: includes/class-zeko-freelance-ajax.php:456
+#: includes/class-zeko-freelance-ajax.php:485
+#: includes/class-zeko-freelance-ajax.php:535
+#: includes/class-zeko-freelance-ajax.php:609
+#: includes/class-zeko-freelance-ajax.php:642
+#: includes/class-zeko-freelance-ajax.php:683
+#: includes/class-zeko-freelance-ajax.php:720
+#: includes/class-zeko-freelance-ajax.php:764
+#: includes/class-zeko-freelance-ajax.php:801
+#: includes/class-zeko-freelance-ajax.php:837
+#: includes/class-zeko-freelance-ajax.php:993
+#: includes/class-zeko-freelance-ajax.php:1028
+#: includes/class-zeko-freelance-ajax.php:1075
+#: includes/class-zeko-freelance-ajax.php:1137
+#: includes/class-zeko-freelance-ajax.php:1185
+#: includes/class-zeko-freelance-ajax.php:1331
 msgid "You must be logged in."
 msgstr ""
 
@@ -2323,7 +2323,7 @@ msgstr ""
 msgid "— Select —"
 msgstr ""
 
-#: templates/marketplace.php:166 templates/portfolios.php:114
+#: templates/marketplace.php:166 templates/portfolios.php:115
 msgid "← Newer"
 msgstr ""
 
